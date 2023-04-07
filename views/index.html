@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>IMEI Trace</title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/static/css/fontAwesome.css">
+        <link rel="stylesheet" href="/static/css/light-box.css">
+        <link rel="stylesheet" href="/static/css/templatemo-main.css">
+        <link rel="stylesheet" href="/static/css/new.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+        <script src="/static/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+<body>
+    
+    <div class="sequence">
+  
+      <div class="seq-preloader">
+        <svg width="39" height="16" viewBox="0 0 39 16" class="seq-preload-indicator"><g fill="#F96D38"><path class="seq-preload-circle seq-preload-circle-1" d="M3.999 12.012c2.209 0 3.999-1.791 3.999-3.999s-1.79-3.999-3.999-3.999-3.999 1.791-3.999 3.999 1.79 3.999 3.999 3.999z"/><path class="seq-preload-circle seq-preload-circle-2" d="M15.996 13.468c3.018 0 5.465-2.447 5.465-5.466 0-3.018-2.447-5.465-5.465-5.465-3.019 0-5.466 2.447-5.466 5.465 0 3.019 2.447 5.466 5.466 5.466z"/><path class="seq-preload-circle seq-preload-circle-3" d="M31.322 15.334c4.049 0 7.332-3.282 7.332-7.332 0-4.049-3.282-7.332-7.332-7.332s-7.332 3.283-7.332 7.332c0 4.05 3.283 7.332 7.332 7.332z"/></g></svg>
+      </div>
+      
+    </div>
+    
+  
+        <nav>
+          <div class="logo">
+              <img src="/static/img/logo.png" alt="">
+          </div>
+          <div class="mini-logo">
+              <img src="/static/img/mini_logo.png" alt="">
+          </div>
+          <ul>
+            <li><a href="#1"><i class="fa fa-home"></i> <em>Home</em></a></li>
+            <li><a href="#2"><i class="fa fa-user"></i> <em>Motivation</em></a></li>
+            <li><a href="#3"><i class="fa fa-pencil"></i> <em>Check IMEI/MEID</em></a></li>
+            <li><a href="#4"><i class="fa fa-envelope"></i> <em>Contact</em></a></li>
+          </ul>
+        </nav>
+        
+        <div class="slides">
+          <div class="slide" id="1">
+            <div class="content first-content">
+              <div class="container-fluid">
+                  <div class="col-md-3">
+                      <div class="author-image"><img src="/static/img/in1.png" alt="Author Image"></div>
+                  </div>
+                  <div class="col-md-9">
+                      <h2>IMEITrace</h2>
+                      <p>"International Mobile Equipment Identity" or IMEI is a distinctive 15-digit number that serves to identify a mobile device on a network. Similar to a social security number, it can be considered as the phone's unique identifier. It is allocated to each GSM phone, while MEID numbers are assigned to CDMA devices.</p>
+                      <div class="main-btn"><a href="#3">Check IMEI</a></div>
+                      <div class="fb-btn"><a rel="nofollow" href="/form">Report a loss</a></div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide" id="2">
+            <div class="content second-content">
+                <div class="container-fluid">
+                    <div class="col-md-6">
+                        <div class="left-content">
+                            <h2>motivation</h2>
+                            <p>I am highly motivated to undertake a project that will help individuals who have lost their mobile phones due to theft or carelessness. This motivation stems from my personal experience when my friend lost his phone while traveling in a bus in Benglore city, presumably stolen by a pickpocket. I have realized the importance of a platform that can assist people in identifying whether the phone they have found or intend to buy is lost or stolen. Hence, I plan to develop a platform that will allow individuals to check whether a phone has been reported lost or stolen. Moreover, individuals can report their lost phones on our platform and keep track of how many times the same IMEI has been queried. I am committed to helping people safeguard their mobile phones and personal information from theft and misuse.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-image">
+                          <img src="/static/img/phone.jpg" alt="">
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="slide" id="3">
+            <div class="content fifth-content">
+                <div class="container-fluid">
+                    <div class="col-md-6">
+                        <div class="right-image">
+                          <img src="/static/img/pi1.png" alt="">
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <form id="contact" action="/mobile-device" method="post">
+                            <div class="row">
+                                
+                                 <div class="col-md-12">
+                                  <h3 style="color:whitesmoke;">Before buying any second hand phone do check if it was stolen or misplaced by someone.</h3>
+                                  <fieldset>
+                                    <input name="imei" type="text" class="form-control" id="imei" placeholder="IMEI/MEID Number" required="">
+                                  </fieldset>
+                                </div>
+
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <button type="submit" id="form-submit" class="btn">Check</button>
+                                  </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          </div>
+          
+          <div class="slide" id="4">
+            <div class="content third-content">
+                <div class="container-fluid">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="pricing-box pricing-box-bg-image text-center">
+                                <h1>IMEITrace</h1>
+                                <p class="price"><sup>Created by</sup>Shunux Stuxnet</p>
+                                <ul class="features-list">
+                                    <li></li>
+                                    <li><div class="main-btn"><a href="mailto:shunux@shunux.tech">shunux@shunux.tech</a></div></li>
+                                    <li><div class="main-btn"><a href="https://www.linkedin.com/in/shunux-stuxnet">LinkedIn</a></div></li>
+                                    <li><div class="main-btn"><a href="https://github.com/Shunux-Stuxnet">Github</a></div></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+       
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/static/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="/static/js/vendor/bootstrap.min.js"></script>
+    
+    
+    <script src="/static/js/main.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+
+        
+
+        // navigation click actions 
+        $('.scroll-link').on('click', function(event){
+            event.preventDefault();
+            var sectionID = $(this).attr("data-id");
+            scrollToID('#' + sectionID, 750);
+        });
+        // scroll to top action
+        $('.scroll-top').on('click', function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop:0}, 'slow');         
+        });
+        // mobile nav toggle
+        $('#nav-toggle').on('click', function (event) {
+            event.preventDefault();
+            $('#main-nav').toggleClass("open");
+        });
+    });
+    // scroll function
+    function scrollToID(id, speed){
+        var offSet = 0;
+        var targetOffset = $(id).offset().top - offSet;
+        var mainNav = $('#main-nav');
+        $('html,body').animate({scrollTop:targetOffset}, speed);
+        if (mainNav.hasClass("open")) {
+            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+            mainNav.removeClass("open");
+        }
+    }
+    if (typeof console === "undefined") {
+        console = {
+            log: function() { }
+        };
+    }
+    </script>
+</body>
+</html>
