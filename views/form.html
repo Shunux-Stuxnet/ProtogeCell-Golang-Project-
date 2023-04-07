@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Reporting</title>
+  <link rel="stylesheet" href="/static/form.css">
+
+</head>
+<body>
+  <!-- partial:index.partial.html -->
+  <div class="login-box">
+    <h2>Lost your Phone??</h2>
+    <h2>Report it to us.</h2>
+    <form action="/form" method="post">
+      <div class="user-box">
+        <input name="name" type="text" tabindex="1" required autofocus>
+        <label>Full Name</label>
+      </div>
+      <div class="user-box">
+        <input name="email" type="email" tabindex="2" required>
+        <label>Email Address</Address></label>
+      </div>
+      <div class="user-box">
+        <input name="imeinum" type="text" tabindex="3" required>
+        <label>IMEI Number</Address></label>
+      </div>
+      <div class="user-box">
+        <input name="fir" type="text" tabindex="3">
+        <label>FIR Number(if available)</Address></label>
+      </div>
+      <div class="user-box">
+        <input name="mobile" type="number" tabindex="3">
+        <label>Mobile Number</Address></label>
+      </div>
+      <div class="user-box">
+        <input name="location" type="text" tabindex="4" required>
+        <label>Location? where you lost your phone.</Address></label>
+      </div>
+      <div class="user-box">
+        <input name="location" type="text" tabindex="4" required>
+        <label>Tell us more(Brand, Model, and other specs)</Address></label>
+      </div>
+      <a>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </a>
+    </form>
+  </div>
+  <!-- partial -->
+    
+  </body>
+  </html>

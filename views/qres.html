@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Protoge Cell: IMEI/MEID Query</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"><link rel="stylesheet" href="/static/qres.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main class="profile">
+  <h1 class="profile-title">
+    IMEI/MEID query result
+  </h1>
+  
+  <div class="profile-container">
+    <!-- Pure CSS image (no graphics included) -->
+
+
+<div class="background-panels">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="phone">
+  <div class="phone-back">
+    <div class="phone-left-side">
+      <div class="phone-antena"></div>
+      <div class="phone-button top"></div>
+      <div class="phone-button"></div>
+      <div class="phone-button bottom"></div>
+      <div class="phone-antena bottom"></div>
+    </div>
+    <div class="phone-bottom">
+      <div class="phone-antena"></div>
+      <div class="bottom-speaker">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="phone-screw">
+        <div></div>
+      </div>
+      <div class="phone-charger">
+      </div>
+      <div class="phone-screw right">
+        <div></div>
+      </div>
+       <div class="bottom-speaker right">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="phone-antena right"></div>
+    </div>
+  </div>
+  <div class="phone-screen"></div>
+  <div class="phone-display">
+    <div class="phone-notch">
+      <div class="phone-speaker"></div>
+    </div>
+    <div class="display-content">
+      <div class="notifications-bar">
+        <div class="time">9:41</div>
+        <div class="range"></div>
+        <div class="wifi"></div>
+        <div class="battery"></div>
+      </div>
+      <div class="nav">
+        <div class="messages"></div>
+        <div class="phone-number">Protoge Cell</div>
+        <div class="menu"></div>
+      </div>
+      <div class="current-plan">
+        <div class="plan">
+          <div>
+            <div class="plan-header">Find IMEI</div>
+            <div class="plan-price">*#06#</div>
+          </div>
+          <div class="plan-date">
+            <div>*#07#</div>
+            <div>*#*#8255#*#*</div>
+          </div>
+        </div>
+        <div class="text-question">Please inform us if you found or come across this device being sold elsewhere.</div>
+      </div>
+      <div class="plan-box">
+        
+        <a class="change-plan" href="">Let's save devices.</a>
+      </div>
+      <div class="plan-list">
+        <div class="plan-limit">
+          <div class="limit-text">
+            <div><strong style="color: blue;">Take care of your device as much as your spouse;</strong><span style="color: black;">it may know even more about you.</span></div>
+          </div>
+          <div class="limit-icon"></div>
+        </div>
+        <div class="plan-limit">
+          <div class="limit-text">
+            <div><span style="color: black;">By:</span><strong style="color: blue;">Shunux Stuxnet</strong></div>
+          </div>
+          <div class="limit-icon upgrade"></div>
+        </div>
+      </div>
+      <div class="bottom-icons">
+        <div class="chart"><div></div></div>
+        <div class="eye"><div></div></div>
+        <div class="equalizer"><div></div><div></div><div></div></div>
+      </div>
+      <div class="home-button"></div>
+    </div>
+  </div>
+  <div class="phone-reflections">
+    <div class="reflection-1"></div>
+    <div class="reflection-2"></div>
+    <div class="reflection-3"></div>
+    <div class="reflection-4"></div>
+    <div class="reflection-5"></div>
+    <div class="reflection-6"></div>
+    <div class="reflection-7"></div>
+  </div>
+</div>
+    <div class="user">
+      <div class="image-container">
+        <img alt="" class="avatar" src="https://image.freepik.com/free-vector/coloured-knight-design_1152-54.jpg" />
+      </div>
+      <div class="user-info">
+        <p class="user-name">
+          Protoge Cell
+        </p>
+        <div class="user-subinfo">
+          <p class="user-class">
+            Please inform us if you found or come across this device being sold elsewhere.
+        </div>
+      </div>
+    </div>
+
+    <div class="content_wrapper">
+      <div class="white">
+        <h2>You searched for IMEI/MEID number: <b style="color: orangered;">{{ .imeinum }}</b></h2>
+        <h3>This IMEI/MEID number was queried <b style="color: orangered;">{{ .count }}</b> no of times.</h3>
+         <div class="button">
+        <a href="/form" target="blank">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Report
+      </a>
+        </div>
+      </div>
+
+    
+    
+      
+      </div>
+    </table>
+  </div>
+</main>
+
+</body>
+</html>
