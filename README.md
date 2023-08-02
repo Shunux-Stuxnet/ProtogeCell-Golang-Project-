@@ -1,4 +1,4 @@
-# ProtogeCell - Device Verification System
+# ProtogeCell 
 
 
 ProtogeCell is a device verification system that allows users to check if a device has been reported lost or stolen. It facilitates device finding through the utilization of IMEI (International Mobile Equipment Identity) or MEID (Mobile Equipment Identifier) and offers guidance to prevent the purchase of stolen second-hand mobiles.
